@@ -8,7 +8,7 @@ import warnings
 class Settings:
     def __init__(self):
 
-        self.__supported_dataset = ['pet_ct']
+        self.__supported_dataset = ['AJILE12']
         self.__supported_models = ['unet']
         self.__model = None
         self.__debug_mode = False
